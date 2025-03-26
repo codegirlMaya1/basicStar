@@ -1,0 +1,43 @@
+/* header.css */
+header {
+    background-color: #000000; /* Vibrant black color */
+  }
+  
+  header nav a {
+    color: #ffffff; /* White font for navigation links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  header nav a:hover {
+    color: #FF4500; /* Orange color on hover */
+  }
+  
+  header nav .search-icon {
+    fill: #ffffff; /* White color for search icon */
+  }
+  
+  header nav button {
+    color: #ffffff; /* White font for buttons */
+    background-color: #000000; /* Black background for buttons */
+    border: none; /* Remove border */
+  }
+  
+  header nav button.bg-orange-600 {
+    background-color: #FF4500; /* Log In button color */
+  }
+  
+  header nav button.bg-violet-400 {
+    background-color: #000000; /* Sign Up button color */
+    border: none; /* Remove border */
+  }
+  
+  header nav .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header nav .link-container a {
+    color: #FF4500; /* Orange color for links under text */
+    font-size: 0.875rem; /* Smaller font size for links */
+  }

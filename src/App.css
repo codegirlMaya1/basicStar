@@ -1,0 +1,141 @@
+/* app.css */
+
+/* Styles for the main container */
+main {
+  padding-right: 20px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-right: 5px;
+  }
+}
+
+/* Styles for the flex container */
+.flex {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+/* Styles for the LoginBanner component */
+.login-banner {
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  .login-banner {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Styles for the LoginForm component */
+.login-form {
+  width: 35%;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Additional styles for buttons, inputs, etc. */
+button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #f45e00;
+  border-radius: 5px;
+  border-color: #f45e00;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add styles specific to the app */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: white;
+  color: #f45e00;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border-radius: 3px;
+  border: 1px solid #f45e00;
+}
+
+button:hover {
+  background-color: #e04e00;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer button {
+  background-color: transparent;
+  color: #f45e00;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer button:hover {
+  color: #e04e00;
+}
+
+.form-container {
+  max-width: 500px; /* Increase the size */
+  width: 100%;
+  padding: 40px; /* Increase padding */
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: auto; /* Center vertically */
+  margin-bottom: auto; /* Center vertically */
+}
+
+/* New class for social buttons */
+.social-button {
+  background-color: white;
+  color: black;
+}

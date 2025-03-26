@@ -1,0 +1,59 @@
+.footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-bg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+    min-width: 50px; /* Ensure a minimum width */
+    min-height: 50px; /* Ensure a minimum height */
+  }
+  
+
+  .footer-copyright {
+    margin: 5px 0;
+    color: white; /* Ensure these texts stay white */
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-nav a {
+    color: #FF4500; /* Orange color for links */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-nav a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+  }
+  .footer-phone a {
+    color: #f45e00; /* Your desired color */
+    text-decoration: none; /* Removes the underline */
+  }
+  

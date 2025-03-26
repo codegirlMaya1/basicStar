@@ -1,0 +1,80 @@
+/* contactform.css */
+.contact-form-container {
+    background-color: #ffffff; /* White background */
+    padding: 85px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h4 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 24px; /* Smaller font size */
+    color: black; /* Black text */
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Center align and limit width */
+  }
+  
+  .styled-input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .styled-input input,
+  .styled-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000; /* 1px black border for input fields */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; /* Sparkly bright white */
+    color: #000000; /* Black text */
+  }
+  
+  .styled-input textarea {
+    border: 5px solid #000000; /* 5px black border for textarea */
+    height: 150px; /* Make the textarea wider */
+  }
+  
+  .styled-input label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: black; /* Black label text */
+    transition: all 0.3s ease;
+  }
+  
+  .styled-input input:focus + label,
+  .styled-input textarea:focus + label,
+  .styled-input input:not(:placeholder-shown) + label,
+  .styled-input textarea:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: black; /* Black label text */
+  }
+  
+  .btn-lrg {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500; /* Vibrant orange color */
+    color: white; /* White font */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn-lrg:hover {
+    background-color: #333; /* Darker background on hover */
+  }
